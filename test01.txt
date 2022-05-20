@@ -1,0 +1,68 @@
+HidukPaul47@HOME-PC MINGW64 /d/HillelQA/GitHub/RepositAll/Dz24HidukPaul (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    File1.txt
+        deleted:    File2.txt
+        deleted:    file3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HidukPaul47@HOME-PC MINGW64 /d/HillelQA/GitHub/RepositAll/Dz24HidukPaul (main)
+$ git clear
+git: 'clear' is not a git command. See 'git --help'.
+
+The most similar command is
+        clean
+
+HidukPaul47@HOME-PC MINGW64 /d/HillelQA/GitHub/RepositAll/Dz24HidukPaul (main)
+$ git add *
+
+HidukPaul47@HOME-PC MINGW64 /d/HillelQA/GitHub/RepositAll/Dz24HidukPaul (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    File1.txt
+        deleted:    File2.txt
+        deleted:    file3.txt
+
+
+HidukPaul47@HOME-PC MINGW64 /d/HillelQA/GitHub/RepositAll/Dz24HidukPaul (main)
+$ git commit -m "Dz24HillilHidukPaul"
+[main 6ce507a] Dz24HillilHidukPaul
+ 3 files changed, 9 deletions(-)
+ delete mode 100644 File1.txt
+ delete mode 100644 File2.txt
+ delete mode 100644 file3.txt
+
+HidukPaul47@HOME-PC MINGW64 /d/HillelQA/GitHub/RepositAll/Dz24HidukPaul (main)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (1/1), done.
+Writing objects: 100% (2/2), 201 bytes | 201.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/gpaul47/Dz24HidukPaul.git
+   e20fb67..6ce507a  main -> main
+
+HidukPaul47@HOME-PC MINGW64 /d/HillelQA/GitHub/RepositAll/Dz24HidukPaul (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+HidukPaul47@HOME-PC MINGW64 /d/HillelQA/GitHub/RepositAll/Dz24HidukPaul (main)
+$ dir
+
+HidukPaul47@HOME-PC MINGW64 /d/HillelQA/GitHub/RepositAll/Dz24HidukPaul (main)
+$ cat > test01.txt
+
