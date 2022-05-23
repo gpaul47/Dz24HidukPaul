@@ -1,68 +1,23 @@
-HidukPaul47@HOME-PC MINGW64 /d/HillelQA/GitHub/RepositAll/Dz24HidukPaul (main)
-$ git status
-On branch main
-Your branch is up to date with 'origin/main'.
+=) Обновлено.
+Dz25
+. Git
+NOTE: Команда ‘git init’, инициализирует репозиторий в текущей директории. После выпол-нения этой команды, в bash-консоли, начинает отображаться текущая ветка (master, или main). 
+Команда ‘git add’, подсвечивает список изменений, готовых для включения в ‘commit’.
+Команда ‘git commit’, выполняет запись изменений в локальном репозитории. 
+Выполнение команды ‘push’, ведет к отправке изменений на сервер удаленного доступа GitHub.
+Команда ‘git pull’, напротив, стягивает изменения с удаленного репозитория в локальный. 
 
-Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        deleted:    File1.txt
-        deleted:    File2.txt
-        deleted:    file3.txt
+Глоссарий команд в помощь: Git Terminology
 
-no changes added to commit (use "git add" and/or "git commit -a")
+Задание
+Предполагается, что результатом выполнения предыдущего задания, является отдельная директория (a), в которой инициализирован репозиторий, из которого выполнялся ‘push’ на GitHub.
 
-HidukPaul47@HOME-PC MINGW64 /d/HillelQA/GitHub/RepositAll/Dz24HidukPaul (main)
-$ git clear
-git: 'clear' is not a git command. See 'git --help'.
+Создать новую директорию (никак не связанную с предыдущей).
+Разобраться с использованием команды ‘git clone’, клонировать имеющийся репозиторий с GitHub, в новую директорию (b).
 
-The most similar command is
-        clean
+Вернуться в директорию a, создать новый файл, и выполнить необходимую последова-тельность команд в git bash консоли, чтобы выполнить push новых изменений на GitHub. 
 
-HidukPaul47@HOME-PC MINGW64 /d/HillelQA/GitHub/RepositAll/Dz24HidukPaul (main)
-$ git add *
+Перейти в директорию b, и выполнить команду pull чтобы стянуть с удаленного репозито-рия те изменения, о которых, пока еще склонированный репозиторий не знает.
 
-HidukPaul47@HOME-PC MINGW64 /d/HillelQA/GitHub/RepositAll/Dz24HidukPaul (main)
-$ git status
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        deleted:    File1.txt
-        deleted:    File2.txt
-        deleted:    file3.txt
-
-
-HidukPaul47@HOME-PC MINGW64 /d/HillelQA/GitHub/RepositAll/Dz24HidukPaul (main)
-$ git commit -m "Dz24HillilHidukPaul"
-[main 6ce507a] Dz24HillilHidukPaul
- 3 files changed, 9 deletions(-)
- delete mode 100644 File1.txt
- delete mode 100644 File2.txt
- delete mode 100644 file3.txt
-
-HidukPaul47@HOME-PC MINGW64 /d/HillelQA/GitHub/RepositAll/Dz24HidukPaul (main)
-$ git push
-Enumerating objects: 3, done.
-Counting objects: 100% (3/3), done.
-Delta compression using up to 4 threads
-Compressing objects: 100% (1/1), done.
-Writing objects: 100% (2/2), 201 bytes | 201.00 KiB/s, done.
-Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
-To https://github.com/gpaul47/Dz24HidukPaul.git
-   e20fb67..6ce507a  main -> main
-
-HidukPaul47@HOME-PC MINGW64 /d/HillelQA/GitHub/RepositAll/Dz24HidukPaul (main)
-$ git status
-On branch main
-Your branch is up to date with 'origin/main'.
-
-nothing to commit, working tree clean
-
-HidukPaul47@HOME-PC MINGW64 /d/HillelQA/GitHub/RepositAll/Dz24HidukPaul (main)
-$ dir
-
-HidukPaul47@HOME-PC MINGW64 /d/HillelQA/GitHub/RepositAll/Dz24HidukPaul (main)
-$ cat > test01.txt
+Ответом на задание прислать скриншот, демонстрирующий наличие файла, который был ‘запушен’ на удаленный репозиторий, а также успешное выполнение команды pull в клонированном репозитории.
 
